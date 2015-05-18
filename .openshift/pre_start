@@ -1,0 +1,4 @@
+#!/bin/bash
+datetime > ~/app-root/data/log.txt
+ls ~/ -al >> ~/app-root/data/log.txt
+
