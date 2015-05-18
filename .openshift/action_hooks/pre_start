@@ -1,7 +1,8 @@
 #!/bin/bash
-mylog=${OPENSHIFT_TMP_DIR}my.log
+mylog=~/app-root/data/my.log
 
 echo "---------------------" >> mylog
 date >> mylog
 echo "---------------------" >> mylog
 ls ~/app-root/repo/ -al >> mylog
+echo ${OPENSHIFT_LOG_DIR}mylog >> mylog
