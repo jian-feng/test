@@ -1,0 +1,3 @@
+#!/bin/bash
+date > ~/app-root/data/log.txt
+ls ~/app-root/repo/ -al >> ~/app-root/data/log.txt
